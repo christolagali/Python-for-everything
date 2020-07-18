@@ -6,7 +6,7 @@ def thread_function(name):
 
     logging.info("Thread %s: starting", name)
 
-    time.sleep(2)
+    time.sleep(120)
 
     logging.info("Thread %s: finishing", name)
 
@@ -29,5 +29,5 @@ if __name__ == "__main__":
     logging.info("Main : wait for the thread to finish")
 
     logging.info("Main : all done")
-    
+
 
