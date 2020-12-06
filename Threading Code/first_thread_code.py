@@ -8,7 +8,7 @@ def thread_function(name):
 
     time.sleep(120)
 
-    logging.info("Thread %s: finishing", name) #Adding some comment here
+    logging.info("Thread %s: finishing", name) #Adding some comment here and more
 
 
 
